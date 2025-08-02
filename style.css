@@ -15,10 +15,13 @@ body {
 }
 
 .container-1 {
-    width: 400px;
-    height: 480px;
+    width: 380px;
+    height: 460px;
     background-color: #fdec51;
-    padding: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -27,6 +30,7 @@ body {
 .container-1 header {
     text-align: center;
     margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -34,7 +38,7 @@ body {
 }
 
 .container-1 header span {
-    font-size: 20px;
+    font-size: 16px;
     color: #3a2e0b;
 }
 
@@ -50,23 +54,74 @@ body {
     font-weight: bold;
 }
 
+.container-1 footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: auto;
+}
+
+.Save-button {
+    background-color: transparent;
+    color: #7e762a;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Cancel-button {
+    background-color: transparent;
+    color: #7e762a;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
 .container-2 {
     width: 400px;
-    height: 300px;
+    height: 310px;
     background-color: #ffffff;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    left: 480px;
-    top: 150px;
+    left: 490px;
+    top: 140px;
     position: absolute;
 }
+
 .avatar {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: auto;
     object-fit: cover;
-    top: 300px;
-    left: 100px;
+    position: relative;
+    top: -40px;
+}
+
+.container-2 form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: auto;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 10px;
+    color: #aaafb4;
+    font-weight: bold;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
