@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="container-1">
+            <header>
+                <span>Account settings</span>
+                <div class="close-button">
+                 <div class="close-icon">X</div>
+                </div>
+            </header>
+            <footer>
+                <button class="Cancel-button">Cancel</button>
+                <button class="Save-button">Save</button>
+            </footer>
+        </section>
+        <section class="container-2">
+            <img src="./img/avatar.jpg" alt="Avatar" class="avatar">
+            <form action="#">
+                <div class="user-details">
+                    <label for="username">USERNAME</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                    <fieldset>
+                      <label for="firstname">FIRST NAME</label>
+                      <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" required>
+                      <label for="lastname">LAST NAME</label>
+                      <input type="text" id="lastname" name="lastname" placeholder="Enter your last name" required>
+                    </fieldset>
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <label for="bio">BIO</label>
+                    <textarea id="bio" name="bio" placeholder="Tell us about yourself" required></textarea>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
