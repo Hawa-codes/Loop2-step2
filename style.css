@@ -131,16 +131,39 @@ label {
     font-size: 9px;
     color: #aaafb4;
     font-weight: bold;
-    padding: 5px;
+    padding: 1px;
 }
 
 fieldset {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+    gap: -18px; 
     border: none;
+    padding: 0;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.input-group input {
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    border-bottom: #d6cfcf 1px solid;
+    line-height: 1.4;
+    margin-right: 5px; 
+}
+
+.input-group:last-child input {
+    margin-right: 0;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-bottom: #d6cfcf 1px solid;
 }
 
 input {
@@ -160,7 +183,7 @@ input:focus {
 textarea {
     border: none;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
     padding-bottom: 18px;
     border-bottom: #d6cfcf 1px solid;
     line-height: 1.0;
