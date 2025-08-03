@@ -14,6 +14,15 @@ body {
     align-items: center;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
 .container-1 {
     width: 380px;
     height: 460px;
@@ -98,9 +107,9 @@ body {
     padding: 30px;
     display: flex;
     flex-direction: column;
+    position: fixed;
     left: 490px;
     top: 140px;
-    position: absolute;
 }
 
 .avatar {
@@ -145,6 +154,7 @@ fieldset {
     display: flex;
     flex-direction: column;
     flex: 1;
+    line-height: 1.4;
 }
 
 .input-group input {
@@ -187,4 +197,9 @@ textarea {
     padding-bottom: 18px;
     border-bottom: #d6cfcf 1px solid;
     line-height: 1.0;
+}
+
+textarea:focus {
+    outline: none;
+    border-bottom: #d6cfcf 1px solid;
 }
