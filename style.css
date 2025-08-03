@@ -54,6 +54,10 @@ body {
     font-weight: bold;
 }
 
+.close-icon:hover {
+    color: rgb(41, 39, 39);
+}
+
 .container-1 footer {
     display: flex;
     justify-content: flex-end;
@@ -70,6 +74,10 @@ body {
     font-size: 16px;
 }
 
+.Save-button:hover {
+    color: rgb(41, 39, 39);
+}
+
 .Cancel-button {
     background-color: transparent;
     color: #7e762a;
@@ -77,6 +85,10 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
+}
+
+.Cancel-button:hover {
+    color: rgb(41, 39, 39);
 }
 
 .container-2 {
@@ -119,6 +131,7 @@ label {
     font-size: 9px;
     color: #aaafb4;
     font-weight: bold;
+    padding: 5px;
 }
 
 fieldset {
@@ -128,4 +141,27 @@ fieldset {
     justify-content: space-between;
     gap: 10px;
     border: none;
+}
+
+input {
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    border-bottom: #d6cfcf 1px solid;
+    line-height: 1.4;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: #d6cfcf 1px solid;
+}
+
+textarea {
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 18px;
+    border-bottom: #d6cfcf 1px solid;
+    line-height: 1.0;
 }
