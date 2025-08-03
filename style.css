@@ -83,7 +83,7 @@ body {
     width: 400px;
     height: 310px;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     left: 490px;
@@ -112,16 +112,20 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: -45px;
 }
 
 label {
-    font-size: 10px;
+    font-size: 9px;
     color: #aaafb4;
     font-weight: bold;
 }
 
 fieldset {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     gap: 10px;
+    border: none;
 }
